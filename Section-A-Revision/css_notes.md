@@ -334,8 +334,8 @@ This rule will override a selector with lower specificity.
 - Padding adds inner spacing.
 - Border wraps around padding.
 - Margin creates outer spacing.
-  ![box-model](./boxModel.png)
 
+  ![box-model](../assets/boxModel.png)
 ---
 
 ## What is CSS specificity and how is it calculated?
@@ -392,7 +392,7 @@ Final applied color → **orange**.
 - Padding creates space inside the border.
 - Padding affects background color.
 - Margin does not affect background.
-![Padding-margin](./padding-margin.jpg)
+![Padding-margin](../assets/padding-margin.jpg)
 ---
 
 ## 4. How does position: relative vs absolute work?
