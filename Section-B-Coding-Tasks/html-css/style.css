@@ -502,7 +502,8 @@ footer .name {
     }
 
     .navbar img {
-        width: 4.5em;
+        /* width: 4.5em; */
+        display: none;
     }
 
     .nav-links {
