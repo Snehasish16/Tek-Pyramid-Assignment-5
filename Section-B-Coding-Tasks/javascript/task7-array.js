@@ -41,15 +41,19 @@ const users = [
 ];
 
 const userMap = users.map((ele) => ele.name)
-console.log(userMap)
+console.log(userMap)    //[ 'John', 'Jane', 'Bob', 'Alice' ]
 
 const userFilter = users.filter(ele => ele.age > 28)
-console.log(userFilter)
+console.log(userFilter)     
+// [
+//   { name: 'Jane', age: 30, salary: 60000 },
+//   { name: 'Bob', age: 35, salary: 55000 }
+// ]
 
 const userReduceSal = users.reduce((acc, ele) => {
     return acc + ele.salary
 }, 0)
-console.log(userReduceSal)
+console.log(userReduceSal)  //230000
 
 const userReduceAge = users.reduce((acc, user) => {
     if (!acc["20-30"]) acc["20-30"] = [];
@@ -65,6 +69,14 @@ const userReduceAge = users.reduce((acc, user) => {
 
 }, {})
 console.log(userReduceAge)
+// {
+//   '20-30': [
+//     { name: 'John', age: 25, salary: 50000 },
+//     { name: 'Jane', age: 30, salary: 60000 },
+//     { name: 'Alice', age: 28, salary: 65000 }
+//   ],
+//   '30-40': [ { name: 'Bob', age: 35, salary: 55000 } ]
+// }
 
 //=====>Task 7.3: Write polyfills for map(), filter(), and reduce() methods.
 let numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
