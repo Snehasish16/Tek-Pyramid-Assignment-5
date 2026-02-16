@@ -88,7 +88,7 @@ downloadFile(
     }
 );
 
-//=====> Implement a custom sort function that accepts an array and a comparison callback function. 
+//=====> Task 5.5: Implement a custom sort function that accepts an array and a comparison callback function. 
 function customSort(arr, compare) {
 
     const result = [...arr];
