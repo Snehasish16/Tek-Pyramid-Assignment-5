@@ -55,3 +55,4 @@ let y=30;
 [y,x]=[x,y]
 
 console.log(`x: ${x} , y: ${y}`)    //x: 30 , y: 10
+
