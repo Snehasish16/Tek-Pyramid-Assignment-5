@@ -704,6 +704,7 @@ footer .name {
     border: 2px solid #ddd;
     outline: none;
     transition: 0.3s;
+    color: black;
 }
 
 .dash-search-bar input:focus {
