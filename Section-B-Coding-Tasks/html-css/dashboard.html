@@ -1,11 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Dashboard</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Product Dashboard</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/f8dd27610c.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body class="dashboard">
+        <div class="dash-sidebar">
+            <div class="dash-logo">CLOSET</div>
+            <ul class="dash-menu">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#" class="active">Products</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="dash-main">
+            <!-- Navbar -->
+            <div class="dash-navbar">
+                <div class="dash-search-bar">
+                    <input type="text" placeholder="Search products..." />
+                </div>
+
+                <div class="dash-profile">
+                    <img src="../../assets/user_icon.png" alt="User" />
+                    <span><strong>Admin</strong></span>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="dash-content">
+                <h1>Product Dashboard</h1>
+
+                <div class="dash-product-grid">
+                    <div class="dash-card">
+                        <img
+                            src="../../assets/headphones.png"
+                            alt="Headphones"
+                        />
+                        <h3>Headphones</h3>
+                        <div class="dash-price">&#8377; 1,500</div>
+                        <span class="dash-status in-stock">In Stock</span>
+                    </div>
+
+                    <div class="dash-card">
+                        <img src="../../assets/smart watch.png" alt="Watch" />
+                        <h3>Smart Watch</h3>
+                        <div class="dash-price">&#8377; 3,000</div>
+                        <span class="dash-status out-stock">Out of Stock</span>
+                    </div>
+
+                    <div class="dash-card">
+                        <img src="../../assets/mobile.png" alt="Mobile" />
+                        <h3>Mobile</h3>
+                        <div class="dash-price">&#8377; 80,000</div>
+                        <span class="dash-status in-stock">In Stock</span>
+                    </div>
+                    <div class="dash-card">
+                        <img src="../../assets/laptop.png" alt="Laptop" />
+                        <h3>Laptop</h3>
+                        <div class="dash-price">&#8377; 2,50,000</div>
+                        <span class="dash-status in-stock">In Stock</span>
+                    </div>
+                    <div class="dash-card">
+                        <img src="../../assets/shoes.png" alt="Shoes" />
+                        <h3>Shoes</h3>
+                        <div class="dash-price">&#8377; 900</div>
+                        <span class="dash-status out-stock">Out of Stock</span>
+                    </div>
+
+                    <div class="dash-card">
+                        <img
+                            src="../../assets/sunglasses.png"
+                            alt="Sunglasses"
+                        />
+                        <h3>Sunglasses</h3>
+                        <div class="dash-price">&#8377; 500</div>
+                        <span class="dash-status in-stock">In Stock</span>
+                    </div>
+                    <div class="dash-card">
+                        <img src="../../assets/bag.png" alt="Bag" />
+                        <h3>Bag</h3>
+                        <div class="dash-price">&#8377; 1,100</div>
+                        <span class="dash-status in-stock">In Stock</span>
+                    </div>
+
+                    <div class="dash-card">
+                        <img src="../../assets/earrings.png" alt="Earrings" />
+                        <h3>Earrings</h3>
+                        <div class="dash-price">&#8377; 300</div>
+                        <span class="dash-status out-stock">Out of Stock</span>
+                    </div>
+
+                    <div class="dash-card">
+                        <img src="../../assets/tshirt.png" alt="T-shirt" />
+                        <h3>T-shirt</h3>
+                        <div class="dash-price">&#8377; 750</div>
+                        <span class="dash-status in-stock">In Stock</span>
+                    </div>
+                    <div class="dash-card">
+                        <img src="../../assets/jeans.png" alt="Cargo" />
+                        <h3>Cargo</h3>
+                        <div class="dash-price">&#8377; 999</div>
+                        <span class="dash-status out-stock">Out of Stock</span>
+                    </div>
+                    <div class="dash-card">
+                        <img src="../../assets/jacket.png" alt="Jacket" />
+                        <h3>Jacket</h3>
+                        <div class="dash-price">&#8377; 2500</div>
+                        <span class="dash-status out-stock">Out of Stock</span>
+                    </div>
+                    <div class="dash-card">
+                        <img src="../../assets/coat.png" alt="Coat" />
+                        <h3>Coat</h3>
+                        <div class="dash-price">&#8377; 5000</div>
+                        <span class="dash-status out-stock">Out of Stock</span>
+                    </div>
+                    <div class="dash-card">
+                        <div class="icon green">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="dash-card-content">
+                            <h2>3.456K</h2>
+                            <p>Total Visitors</p>
+                        </div>
+                        <div class="growth positive">0.43% ↑</div>
+                    </div>
+                    <div class="dash-card">
+                        <div class="icon orange">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="dash-card-content">
+                            <h2>$42.2K</h2>
+                            <p>Total Revenue</p>
+                        </div>
+                        <div class="growth positive">4.35% ↑</div>
+                    </div>
+                    <div class="dash-card">
+                        <div class="icon purple">
+                            <i class="fa-solid fa-person"></i>
+                        </div>
+                        <div class="dash-card-content">
+                            <h2>43543</h2>
+                            <p>Free Users</p>
+                        </div>
+                        <div class="growth positive">2.59% ↑</div>
+                    </div>
+                    <div class="dash-card">
+                        <div class="icon purple">
+                            <i class="fa-solid fa-person"></i>
+                        </div>
+                        <div class="dash-card-content">
+                            <h2>9523</h2>
+                            <p>paid Users</p>
+                        </div>
+                        <div class="growth positive">1.42% ↑</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
